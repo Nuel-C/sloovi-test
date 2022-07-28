@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.taskHeading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add {
+    cursor: pointer;
+}
+
+.cardBody {
+    background-color: rgb(241, 253, 255);
+}
+
+.cardHeader {
+    border-bottom: none;
+}
+
+.buttons {
+    float: right;
+    display: flex;
+}

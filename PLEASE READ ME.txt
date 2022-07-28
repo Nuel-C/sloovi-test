@@ -1,0 +1,3 @@
+The api you gave for getting "Assigned USER dropdown Display User DETAILS" returns an internal server error after making the first post request to Get Access Token, Company_id and User_id,
+so i used a global state manager(REDUX) to manage the tasks.
+

@@ -1,0 +1,33 @@
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details img {
+    width: 50px;
+    height: 50px;
+}
+
+.info p {
+    margin: 0 !important;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+    }
+}
